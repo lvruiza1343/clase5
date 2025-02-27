@@ -5,13 +5,13 @@ from PIL import Image
 st.title("Hello word")
 
 st.header("En este espacio comienzo a desarrollar mis apps de interfaces multimodales")
-st.write("me enacnatna los campos de lavanda")
+st.write("me encanta los campos de lavanda")
 image = Image.open("lavanda.jpeg")
 
 st.image(image, caption="lavanda")
 
-texto = st.text_input("¿cual es tu flor favorita?", "este es tu texto")
-st.write('El leon te ama',texto)
+texto = st.text_input("¿cual es tu flor favorita?", "Este es tu texto")
+st.write('texto',texto)
 
 st.subheader("Ahora hay dos columnas")
 
