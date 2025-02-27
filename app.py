@@ -8,9 +8,9 @@ st.header("En este espacio comienzo a desarrollar mis apps de interfaces multimo
 st.write("me enacnatna los campos de lavanda")
 image = Image.open("lavanda.jpeg")
 
-st.image(image, caption="Ay mi madre el bicho")
+st.image(image, caption="lavanda")
 
-texto = st.text_input("El mejor leon de la historia mundial", "este es unico y divno")
+texto = st.text_input("¿cual es tu flor favorita?", "este es tu texto")
 st.write('El leon te ama',texto)
 
 st.subheader("Ahora hay dos columnas")
