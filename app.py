@@ -23,3 +23,13 @@ ST.write("Las interfaces multimodales mejoran la experiencia de usuario")
 respecto = st.checbox('Estoy de acuerdo)
 if resp:
                       st.write('Correcto')
+                      
+whit col2:
+                      st.subheader("Esta es la segunda columna")
+                      modo = st.radio ("que modalidad es la principal en tu interfaz", ('visual', 'auditiva'. 'tactil))
+                      if modo == 'visual':
+                          st.write('La vista es fundamentalpara tu interfaz')
+                      if modo == 'auditiva':
+                          st. write('la audicion es fundamental para tu interfaz')
+                      if modo == 'Tactil'
+                          st.write('El tacto es fundametal para tu interfaz')
