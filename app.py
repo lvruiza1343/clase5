@@ -11,7 +11,7 @@ image = Image.open("lavanda.jpeg")
 st.image(image, caption="lavanda")
 
 texto = st.text_input("¿cual es tu flor favorita?", "Este es tu texto")
-st.write('texto',texto)
+st.write('Tu texto es:',texto)
 
 st.subheader("Ahora hay dos columnas")
 
