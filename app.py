@@ -10,5 +10,5 @@ image = Image.open('lavanda.jpeg')
 st.image(image, caption = 'lavanda')
 
 
-texto = st.text_input('Escribe algo', 'este es mi texto')
-st.write('El texto escrito es', texto)
+texto = st.text_input('Escribe algo', 'Este es mi texto')
+st.write('El texto escrito es:', texto)
