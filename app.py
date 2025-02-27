@@ -12,3 +12,14 @@ st.image(image, caption = 'lavanda')
 
 texto = st.text_input('Escribe algo', 'Este es mi texto')
 st.write('El texto escrito es:', texto)
+
+
+
+
+
+whit col1:
+st.subheader(Esta es la primera columna")
+ST.write("Las interfaces multimodales mejoran la experiencia de usuario")
+respecto = st.checbox('Estoy de acuerdo)
+if resp:
+                      st.write('Correcto')
